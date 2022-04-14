@@ -14,6 +14,8 @@
     <a href="highscores.hmtl">View Highscores</a>
     <!-- This is a wrapper -->
     <div id="wrapper">
+        <h3>Time:</h3>
+        <div id="time"></div>
         <!-- Div for timer -->
         <div id="currentTime"></div>
         <!-- Div for quiz content -->
@@ -22,9 +24,12 @@
             <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect
                 answers
                 will penalize your score/time by ten seconds!</p>
-            <ul id="choicesUl"></ul>
             <!-- Buttons -->
             <button id="startTime">Start Quiz</button>
+        </div>
+        <div id="questions" class="hide">
+            <h3 id="qTitle">PlaceHolder</h3>
+            <div id="choicesUl">PlaceHolder</div>
         </div>
     </div>
     <script src="script.js"></script>
