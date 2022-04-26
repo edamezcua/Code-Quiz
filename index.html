@@ -11,7 +11,7 @@
 
 <body>
     <!-- Link to highscores -->
-    <a href="highscores.hmtl">View Highscores</a>
+    <a href="highscores.html">View Highscores</a>
     <!-- This is a wrapper -->
     <div id="wrapper">
         <h3>Time:</h3>
@@ -29,7 +29,12 @@
         </div>
         <div id="questions" class="hide">
             <h3 id="qTitle">PlaceHolder</h3>
-            <div id="choicesUl">PlaceHolder</div>
+            <div id="choicesUl"></div>
+        </div>
+        <div id="endGameEl" class="hide">
+            <p>your final score is <span id="score"></span>.</p>
+            <p>Enter initials <input type='text' id='initials' max='3'/></p>
+            <button id="submit">Submit</button>
         </div>
     </div>
     <script src="script.js"></script>
